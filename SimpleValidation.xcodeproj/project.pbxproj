@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F031DBF9F7D16B64D73FBD1 /* Pods_SimpleValidationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1527738CFF2C968CDC7456 /* Pods_SimpleValidationTests.framework */; };
+		842326CF21665C1A0098C592 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 842326CE21665C1A0098C592 /* .swiftlint.yml */; };
 		84333D8E2165A2170079AA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84333D8D2165A2170079AA69 /* AppDelegate.swift */; };
 		84333D902165A2170079AA69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84333D8F2165A2170079AA69 /* ViewController.swift */; };
 		84333D932165A2170079AA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84333D912165A2170079AA69 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		84333D982165A21D0079AA69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84333D962165A21D0079AA69 /* LaunchScreen.storyboard */; };
 		84333DA32165A21D0079AA69 /* SimpleValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84333DA22165A21D0079AA69 /* SimpleValidationTests.swift */; };
 		84333DAE2165A21D0079AA69 /* SimpleValidationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84333DAD2165A21D0079AA69 /* SimpleValidationUITests.swift */; };
+		A7D49B33522149E4A354E6E7 /* Pods_SimpleValidationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B2891EA3377D50E9777E70 /* Pods_SimpleValidationUITests.framework */; };
+		B083E84A594AED524A94B5BF /* Pods_SimpleValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39668C4DBDBFB8F56B15807 /* Pods_SimpleValidation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1527738CFF2C968CDC7456 /* Pods_SimpleValidationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleValidationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EABD4FA588ABEC5BF88D3B /* Pods-SimpleValidationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidationUITests/Pods-SimpleValidationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48D308C9941BD0D2447B9D02 /* Pods-SimpleValidationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidationTests/Pods-SimpleValidationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61B2891EA3377D50E9777E70 /* Pods_SimpleValidationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleValidationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A66D4A5ED9D6DE932DF7578 /* Pods-SimpleValidationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidationTests/Pods-SimpleValidationTests.release.xcconfig"; sourceTree = "<group>"; };
+		7272323BABAE0BC2F841E776 /* Pods-SimpleValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidation/Pods-SimpleValidation.release.xcconfig"; sourceTree = "<group>"; };
+		842326CE21665C1A0098C592 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		84333D8A2165A2170079AA69 /* SimpleValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84333D8D2165A2170079AA69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84333D8F2165A2170079AA69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		84333DA92165A21D0079AA69 /* SimpleValidationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleValidationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84333DAD2165A21D0079AA69 /* SimpleValidationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationUITests.swift; sourceTree = "<group>"; };
 		84333DAF2165A21D0079AA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5B6FFFF88B7DE90609600E /* Pods-SimpleValidationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidationUITests/Pods-SimpleValidationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D29524E5CE6601700F3B17AD /* Pods-SimpleValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidation/Pods-SimpleValidation.debug.xcconfig"; sourceTree = "<group>"; };
+		E39668C4DBDBFB8F56B15807 /* Pods_SimpleValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B083E84A594AED524A94B5BF /* Pods_SimpleValidation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F031DBF9F7D16B64D73FBD1 /* Pods_SimpleValidationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +84,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D49B33522149E4A354E6E7 /* Pods_SimpleValidationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F68FCD1A1732A6DF6F2EEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E39668C4DBDBFB8F56B15807 /* Pods_SimpleValidation.framework */,
+				0B1527738CFF2C968CDC7456 /* Pods_SimpleValidationTests.framework */,
+				61B2891EA3377D50E9777E70 /* Pods_SimpleValidationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84333D812165A2170079AA69 = {
 			isa = PBXGroup;
 			children = (
+				842326CE21665C1A0098C592 /* .swiftlint.yml */,
 				84333D8C2165A2170079AA69 /* SimpleValidation */,
 				84333DA12165A21D0079AA69 /* SimpleValidationTests */,
 				84333DAC2165A21D0079AA69 /* SimpleValidationUITests */,
 				84333D8B2165A2170079AA69 /* Products */,
+				B26CCB6FF84310C948BF86ED /* Pods */,
+				3F68FCD1A1732A6DF6F2EEFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,19 @@
 			path = SimpleValidationUITests;
 			sourceTree = "<group>";
 		};
+		B26CCB6FF84310C948BF86ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29524E5CE6601700F3B17AD /* Pods-SimpleValidation.debug.xcconfig */,
+				7272323BABAE0BC2F841E776 /* Pods-SimpleValidation.release.xcconfig */,
+				48D308C9941BD0D2447B9D02 /* Pods-SimpleValidationTests.debug.xcconfig */,
+				6A66D4A5ED9D6DE932DF7578 /* Pods-SimpleValidationTests.release.xcconfig */,
+				8B5B6FFFF88B7DE90609600E /* Pods-SimpleValidationUITests.debug.xcconfig */,
+				36EABD4FA588ABEC5BF88D3B /* Pods-SimpleValidationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84333DB22165A21D0079AA69 /* Build configuration list for PBXNativeTarget "SimpleValidation" */;
 			buildPhases = (
+				444694EB2BAE21535CA3F65E /* [CP] Check Pods Manifest.lock */,
 				84333D862165A2170079AA69 /* Sources */,
 				84333D872165A2170079AA69 /* Frameworks */,
 				84333D882165A2170079AA69 /* Resources */,
+				FAB67C6B5439E8F2D1512484 /* [CP] Embed Pods Frameworks */,
+				842326CD21663F6D0098C592 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84333DB52165A21D0079AA69 /* Build configuration list for PBXNativeTarget "SimpleValidationTests" */;
 			buildPhases = (
+				292FD22CA1EA7FD2612292AE /* [CP] Check Pods Manifest.lock */,
 				84333D9A2165A21D0079AA69 /* Sources */,
 				84333D9B2165A21D0079AA69 /* Frameworks */,
 				84333D9C2165A21D0079AA69 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84333DB82165A21D0079AA69 /* Build configuration list for PBXNativeTarget "SimpleValidationUITests" */;
 			buildPhases = (
+				D677D46E93CFA719C09EB65E /* [CP] Check Pods Manifest.lock */,
 				84333DA52165A21D0079AA69 /* Sources */,
 				84333DA62165A21D0079AA69 /* Frameworks */,
 				84333DA72165A21D0079AA69 /* Resources */,
@@ -229,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842326CF21665C1A0098C592 /* .swiftlint.yml in Resources */,
 				84333D982165A21D0079AA69 /* LaunchScreen.storyboard in Resources */,
 				84333D952165A21D0079AA69 /* Assets.xcassets in Resources */,
 				84333D932165A2170079AA69 /* Main.storyboard in Resources */,
@@ -250,6 +299,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		292FD22CA1EA7FD2612292AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleValidationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		444694EB2BAE21535CA3F65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleValidation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842326CD21663F6D0098C592 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D677D46E93CFA719C09EB65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleValidationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB67C6B5439E8F2D1512484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleValidation/Pods-SimpleValidation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleValidation/Pods-SimpleValidation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84333D862165A2170079AA69 /* Sources */ = {
@@ -430,6 +574,7 @@
 		};
 		84333DB32165A21D0079AA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29524E5CE6601700F3B17AD /* Pods-SimpleValidation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +593,7 @@
 		};
 		84333DB42165A21D0079AA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7272323BABAE0BC2F841E776 /* Pods-SimpleValidation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +612,7 @@
 		};
 		84333DB62165A21D0079AA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D308C9941BD0D2447B9D02 /* Pods-SimpleValidationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +634,7 @@
 		};
 		84333DB72165A21D0079AA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A66D4A5ED9D6DE932DF7578 /* Pods-SimpleValidationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +656,7 @@
 		};
 		84333DB92165A21D0079AA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5B6FFFF88B7DE90609600E /* Pods-SimpleValidationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +677,7 @@
 		};
 		84333DBA2165A21D0079AA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EABD4FA588ABEC5BF88D3B /* Pods-SimpleValidationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
