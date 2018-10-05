@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITextFieldDelegate {
+class ViewController:UIViewController,UITextFieldDelegate{
     @IBOutlet weak var ibUsernameField: UITextField!
     @IBOutlet weak var ibPwdField: UITextField!
     @IBOutlet weak var ibSubmitButton: UIButton!
@@ -19,25 +19,25 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
     }
 
-    //MARK:输入框相关代理
+    // MARK: 输入框相关代理
     func textFieldDidEndEditing(_ textField: UITextField) {
-        let textLength:Int! = textField.text?.count
-        textField.layer.borderWidth = 1;
+        let textLength = textField.text?.count
+        textField.layer.borderWidth = 1
         //描边
         if textLength! < 5 {
             textField.layer.borderColor =  #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
-        }else{
+        }
+        else{
             textField.layer.borderColor =  #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)
         }
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        let textLength:Int! = textField.text?.count
+        let textLength = textField.text?.count
         if textLength! < 5 {
             return false
         }
         return true
     }
-    
     
     /// 验证
     /// 提示结果
@@ -51,4 +51,3 @@ class ViewController: UIViewController,UITextFieldDelegate {
         self.present(alterView, animated: true, completion: nil)
     }
 }
-
