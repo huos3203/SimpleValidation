@@ -47,6 +47,7 @@
 		7272323BABAE0BC2F841E776 /* Pods-SimpleValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleValidation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleValidation/Pods-SimpleValidation.release.xcconfig"; sourceTree = "<group>"; };
 		842326CE21665C1A0098C592 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		842326DB21674F550098C592 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleValidationViewController.swift; path = RxClass/SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		842326DF216848E30098C592 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		84333D8A2165A2170079AA69 /* SimpleValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84333D8D2165A2170079AA69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84333D8F2165A2170079AA69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		84333D812165A2170079AA69 = {
 			isa = PBXGroup;
 			children = (
+				842326DF216848E30098C592 /* Rx.playground */,
 				842326CE21665C1A0098C592 /* .swiftlint.yml */,
 				84333D8C2165A2170079AA69 /* SimpleValidation */,
 				84333DA12165A21D0079AA69 /* SimpleValidationTests */,
